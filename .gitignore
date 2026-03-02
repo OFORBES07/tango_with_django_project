@@ -1,0 +1,9 @@
+# Database
+db.sqlite3
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Machine specific files
+.DS_Store
