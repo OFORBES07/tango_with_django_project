@@ -7,7 +7,7 @@
 <body>
     <h1>Rango says...</h1>
     {% if category %}
-        <h2>{{ category.name }}</h2>
+        <h1>{{ category.name }}</h1>
         {% if pages %}
         <ul>
             {% for page in pages %}
@@ -18,8 +18,8 @@
         <strong>No pages currently in category.</strong>
         {% endif %}
     {% else %}
-        <strong>The specified category does not exist!</strong>
+        <strong>The specified category does not exist.</strong>
     {% endif %}
-    <a href="/rango/">Back to index</a>
+    <a href="/rango/">Index</a>
 </body>
 </html>
